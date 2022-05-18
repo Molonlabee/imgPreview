@@ -13,4 +13,4 @@ const removeProfile = async (req, res) => {
 
     const updatedItems = await db.removeProfile(req.session.user.user_id, prod_id);
     res.status(200).json(updatedProfiles);
-} -->
+} --># imgPreview
