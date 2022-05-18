@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  padding: 50px;
+  background-size: cover;
+  height: 100vh;
+  background-image: url('https://i.pinimg.com/originals/7d/a6/96/7da696f1987d39249d42946f331ccc1b.jpg');
+  
+}
+.profile{
+  display: inline-block;
+  padding: 50px !important;
+}
+img{
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border: solid 2px black;
+}
+span{
+  /* color: yellow; */
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px;
+  text-transform: uppercase;
+  color: rgb(224, 224, 38);
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+button{
+  background: red;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 300;
+  border: none;
+  margin: 20px;
+}
+/* .fall{
+  transform: translate(8rem) rotate(20deg);
+  opacity: 0;
+  display: none;
+} */
+
+
+/* input[type='file']{
+  display: none;
+} */
